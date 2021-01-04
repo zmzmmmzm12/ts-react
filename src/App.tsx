@@ -4,7 +4,7 @@ import WordRelay from './comp/WordRelay';
 import NumberBaseball from './comp/NumberBaseball';
 import ResponseCheck from './comp/ResponseCheck';
 import RSP from './comp/RSP';
-
+import Lotto from './comp/Lotto';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
       <ResponseCheck/><br/>
       가위바위보
       <RSP/><br/>
+      로또
+      <Lotto/><br/>
     </div>
   );
 }
